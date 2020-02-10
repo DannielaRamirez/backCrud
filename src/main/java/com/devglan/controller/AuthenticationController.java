@@ -11,11 +11,18 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
+//AUTENTICATION CHANGE //AUTENTICATION CHANGE //AUTENTICATION CHANGE//AUTENTICATION CHANGE
+//AUTENTICATION CHANGE //AUTENTICATION CHANGE //AUTENTICATION CHANGE//AUTENTICATION CHANGE
+//AUTENTICATION CHANGE //AUTENTICATION CHANGE //AUTENTICATION CHANGE//AUTENTICATION CHANGE
+//AUTENTICATION CHANGE //AUTENTICATION CHANGE //AUTENTICATION CHANGE//AUTENTICATION CHANGE
+//AUTENTICATION CHANGE //AUTENTICATION CHANGE //AUTENTICATION CHANGE//AUTENTICATION CHANGE
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/token")
 public class AuthenticationController {
+	
+	//AUTENTICATION CHANGE //AUTENTICATION CHANGE //AUTENTICATION CHANGE//AUTENTICATION CHANGE
 
     @Autowired
     private AuthenticationManager authenticationManager;
